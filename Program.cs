@@ -20,7 +20,7 @@ namespace ConnectMongoDB
             var client = new MongoClient(connectionString);
 
             // Get the database and collection.
-            var database = client.GetDatabase("Your_DataBase_Name");
+            var database = client.GetDatabase("Your_Dataaase_Name");
             var collection = database.GetCollection<BsonDocument>("your_collection_name");
 
             // Now you can perform operations on the collection.
