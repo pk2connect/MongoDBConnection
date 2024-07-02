@@ -14,7 +14,7 @@ namespace ConnectMongoDB
         {
 
             // Replace the connection string with your MongoDB Atlas URI.
-            var connectionString = "mongodb+srv://prakashkrk1988:VoEmDNwwRSIEj2B8@testdatabase.ywvasfj.mongodb.net/?retryWrites=true&w=majority&appName=TestDatabase";
+            var connectionString = "mongodb+srv://<YourUserName>:<YourPAssword>@testdatabase.ywvasfj.mongodb.net/?retryWrites=true&w=majority&appName=TestDatabase";
 
             // Create a MongoClient object.
             var client = new MongoClient(connectionString);
